@@ -1,0 +1,40 @@
+HOUDINI_EXTERNAL_HELP_BROWSER = 1
+HOUDINI_OCL_DEVICENUMBER = 0
+
+EDITOR = C:/Program Files/Sublime Text 3/sublime_text.exe
+
+$MOPS = C:/Program Files/Side Effects Software/Houdini 16.5.427/3rd party/MOPS
+HOUDINI_OPLIBRARIES_PATH = C:/Users/user1/Documents/houdini16.5/OTLs
+
+
+
+# HtoA config start
+# PATH = "$PATH;C:/Users/user1/htoa/htoa-1.14.0_r21fe772_houdini-15.5.673/htoa-1.14.0_r21fe772_houdini-15.5.673/scripts/bin"
+# HOUDINI_PATH = "C:/Users/user1/htoa/htoa-1.14.0_r21fe772_houdini-15.5.673/htoa-1.14.0_r21fe772_houdini-15.5.673;&"
+# HtoA config end
+
+# Redshift config start
+HOUDINI_DSO_ERROR = 2
+PATH = "C:/ProgramData/Redshift/bin;$PATH"
+HOUDINI_PATH = C:/ProgramData/Redshift/Plugins/Houdini/16.5.405;C:/Program Files/Side Effects Software/Houdini 16.5.427/3rd Party/GameDevTools;&
+# Redshift config end
+
+# Renderman Added
+
+# RenderMan config start
+# RMANTREE = "C:/Program Files/Pixar/RenderManProServer-21.5"
+# PATH = "$PATH;$RMANTREE/bin"
+# RenderMan config end
+
+# QLIB  AELIB sLib stuff
+
+AELIB = C:/Program Files/Side Effects Software/Houdini 16.5.427/3rd Party/Aelib
+QLIB = C:/Program Files/Side Effects Software/Houdini 16.5.427/3rd party/qLib
+siLIB = C:/Program Files/Side Effects Software/Houdini 16.5.427/3rd party/siLib
+QOTL = $QLIB/otls
+
+HOUDINI_OTLSCAN_PATH = $QOTL/base;$QOTL/future;$QOTL/experimental;@/otls;$AELIB/otls;$SILIB/otls;&
+HOUDINI_GALLERY_PATH = $QLIB/gallery;@/gallery;$AELIB/gallery;$SILIB/gallery;&
+HOUDINI_TOOLBAR_PATH = $QLIB/toolbar;@/toolbar;$AELIB/toolbar;$SILIB/toolbar;&
+HOUDINI_SCRIPT_PATH = $QLIB/scripts;@/scripts;$AELIB/scripts;$SILIB/scripts;&
+HOUDINI_VEX_PATH = $AELIB/vex/include;$SILIB/vex/^;&
